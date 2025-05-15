@@ -1,3 +1,4 @@
+Set-Location -Path $PSScriptRoot
 $version = "1.3.0"
 $filename = "maimaidx-prober-proxy-windows-$version.exe"
 go env -w CGO_ENABLED=1
